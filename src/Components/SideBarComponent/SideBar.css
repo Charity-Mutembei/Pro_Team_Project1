@@ -24,6 +24,7 @@
 /* how to have the hover effect in react js css */
 .section_links #link:hover{
     background-color: rgba(102, 95, 239, 0.2);
+    color: rgba(121, 62, 245, 1);
     cursor: pointer;
     border-radius: 1vw;
     font-size: 1vw;
