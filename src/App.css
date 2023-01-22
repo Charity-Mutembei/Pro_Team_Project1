@@ -4,6 +4,7 @@
 .body_container{
     font-family: 'Poppins', sans-serif;
     display: flex;
+    overflow-x: hidden;
 }
 .top_bar{
     flex: 4;

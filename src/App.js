@@ -1,6 +1,8 @@
 import './App.css';
 import SideBar from './Components/SideBarComponent/SideBar';
-import TopBar from './Components/TopBarComponent/TopBar'
+import TopBar from './Components/TopBarComponent/TopBar';
+import Insight from './Components/InsightComponent/Insight'
+
 
 function App() {
   return (
@@ -10,7 +12,12 @@ function App() {
         <SideBar/>
         </div>
         <div className='top_bar'>
-          <TopBar/>
+          <div className='top_bar_section'>
+            <TopBar/>
+          </div>
+          <div className='internship_insight_section'>
+            <Insight/>
+          </div>
         </div>
       </div>
     </>
