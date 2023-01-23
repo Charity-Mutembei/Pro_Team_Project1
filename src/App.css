@@ -6,6 +6,9 @@
     display: flex;
     overflow-x: hidden;
 }
+.side_bar{
+    flex: 1;
+}
 .top_bar{
     flex: 4;
     font-family: 'Poppins', sans-serif;
