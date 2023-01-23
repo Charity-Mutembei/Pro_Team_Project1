@@ -1,7 +1,9 @@
 import './App.css';
 import SideBar from './Components/SideBarComponent/SideBar';
 import TopBar from './Components/TopBarComponent/TopBar';
-import Insight from './Components/InsightComponent/Insight'
+import Insight from './Components/InsightComponent/Insight';
+import LearningBoard from './Components/LearningBoardComponent/LearningBoard';
+
 
 
 function App() {
@@ -17,6 +19,9 @@ function App() {
           </div>
           <div className='internship_insight_section'>
             <Insight/>
+          </div>
+          <div className='learning_board'>
+            <LearningBoard/>
           </div>
         </div>
       </div>

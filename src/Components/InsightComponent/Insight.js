@@ -1,6 +1,5 @@
 import React from 'react';
 import './Insight.css'; 
-import Pic from './Assets/PicStatics.svg';
 
 export default function Insight() {
   return (
